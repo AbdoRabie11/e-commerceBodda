@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+img.home{
+  width: 100%;
+  object-fit: cover;
+  height: 30vw;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.border_image{
+  border: 2px solid #424649;
+  padding: 12px;
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+.total{
+  font-size: 33px;
+  font-weight: bold;
+}
